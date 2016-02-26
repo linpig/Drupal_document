@@ -46,7 +46,7 @@ Drupal資源總結 (持續整理中)
 + Selectize.js選擇樣式:[Selectize.js](https://www.drupal.org/project/selectize)
 + 連結形式:[Linkit](https://www.drupal.org/project/linkit)
 
-###購物車
+### 購物車
 
 + 連結形式:[Linkit](https://www.drupal.org/project/linkit)
 + 自訂貨幣設定:[Commerce Currency Settings](https://www.drupal.org/project/commerce_currency_settings)
@@ -67,7 +67,7 @@ Drupal資源總結 (持續整理中)
 + Zen是一款非常有彈性的外觀：[Zen](https://www.drupal.org/project/zen)
 + bootstrap:[bootstrap](https://www.drupal.org/project/bootstrap)
 
-###後台外觀
+### 後台外觀
 + Adminimal Responsive Administration Theme：[Adminimal](https://www.drupal.org/project/adminimal_theme)
 
 

@@ -22,7 +22,7 @@
 + Selectize.js選擇樣式:[Selectize.js](https://www.drupal.org/project/selectize)
 + 連結形式:[Linkit](https://www.drupal.org/project/linkit)
 
-###購物車
+### 購物車
 
 + 連結形式:[Linkit](https://www.drupal.org/project/linkit)
 + 自訂貨幣設定:[Commerce Currency Settings](https://www.drupal.org/project/commerce_currency_settings)
