@@ -27,14 +27,49 @@ Drupal資源總結 (持續整理中)
 ### 一般模組
 + Entity Label：[Automatic Entity Label](https://www.drupal.org/project/auto_entitylabel)
 + Entityreference可以給預設值:[Entityreference prepopulate](https://www.drupal.org/project/entityreference_prepopulate)
-+  Views顯示更多效果:[Views Load More](https://www.drupal.org/project/views_load_more)
++ Views顯示更多效果:[Views Load More](https://www.drupal.org/project/views_load_more)
++ Views顯示更多效果2:[Views Show More](https://www.drupal.org/project/views_show_more)
++ Like Button:[Like Button](https://www.drupal.org/project/likebtn)
++ Views Contextual Filter可以寫PHP:[Views Contextual Filter Query](https://www.drupal.org/project/views_contextual_filter_query)
++ 在node頁新增上下頁(pager):[Flippy](https://www.drupal.org/project/flippy)
++ node頁變成block:[nodeblock](https://www.drupal.org/project/nodeblock)
++ taxonomy變menu:[taxonomy_menu](https://www.drupal.org/project/taxonomy_menu)
++ 可以在block自定義class:[Block_Class](https://www.drupal.org/project/block_class)
++ 隱藏node_title:[exclude_node_title](https://www.drupal.org/project/exclude_node_title)
++ 自定義views的class:[Semantic Views](https://www.drupal.org/project/semanticviews)
++ 將views filed 做group:[Views fieldsets](https://www.drupal.org/project/views_fieldsets)
++ 自定義管理顯示的元素:[Fences](https://www.drupal.org/project/fences)
++ 在註冊頁把密碼變成必填:[Simple Pass Reset](https://www.drupal.org/project/simple_pass_reset)
++ 欄位文字抽取:[Field Extractor](https://www.drupal.org/project/field_extractor)
++ 酷炫的圖片畫廊:[Juicebox HTML5 Responsive Image Galleries](https://www.drupal.org/project/juicebox)
++ jump menu優化:[Better Jump Menu](https://www.drupal.org/project/better_jump_menu)
++ Selectize.js選擇樣式:[Selectize.js](https://www.drupal.org/project/selectize)
++ 連結形式:[Linkit](https://www.drupal.org/project/linkit)
 
+###購物車
+
++ 連結形式:[Linkit](https://www.drupal.org/project/linkit)
++ 自訂貨幣設定:[Commerce Currency Settings](https://www.drupal.org/project/commerce_currency_settings)
++ 加入購物車Extra:[Commerce Add to Cart Extras](https://www.drupal.org/project/commerce_add_to_cart_extras)
++ 顏色選擇:[Commerce Fancy Attributes](https://www.drupal.org/project/commerce_fancy_attributes)
++ 購物車產品屬性:[Commerce Product Attributes](https://www.drupal.org/project/commerce_product_attributes)
++ Commerce不同數量不同價格:[Commerce Pricelist](https://www.drupal.org/project/commerce_pricelist)
++ Commerce原價特價:[Commerce Sale Price](https://www.drupal.org/project/commerce_saleprice)
++ Commerce你省下了多少:[Commerce Price Savings Formatter](https://www.drupal.org/project/commerce_price_savings_formatter)
++ 運費細節模組:[Commerce shipping custom details](https://www.drupal.org/project/commerce_shipping_cd)
++ 另一種購物車的顯示:[Commerce Views Display](https://www.drupal.org/project/commerce_views_display)
++ 不同數量不同價錢:[Commerce Price Table](https://www.drupal.org/project/commerce_price_table)
 
 
 ## Drupal7 外觀
 
-### 外觀
-+ drupal7使用度最高的theme：[Zen](https://www.drupal.org/project/zen)
+### 推薦外觀
++ Zen是一款非常有彈性的外觀：[Zen](https://www.drupal.org/project/zen)
++ bootstrap:[bootstrap](https://www.drupal.org/project/bootstrap)
+
+###後台外觀
++ Adminimal Responsive Administration Theme：[Adminimal](https://www.drupal.org/project/adminimal_theme)
+
 
 
 ## License
