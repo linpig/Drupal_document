@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <article id='container'>
+      <h1 id="drupalzi-yuan-zong-jie--chi-xu-zheng-li-zhong-">Drupal資源總結 (持續整理中)</h1>
+
+<blockquote class="no_toc">
+  <p><em>這篇文檔主要是介紹Drupal模組，這是我們團隊歷經多個項目歸類起來的模組，喜歡的朋友就Star一下吧^ _ ^</em></p>
+</blockquote>
+
+<h2 id="gong-xian-fang-shi-">貢獻方式</h2>
+
+<ul>
+  <li>Fork 這個項目</li>
+  <li>不要直接在 <code>Readme.md</code> 中直接添加內容</li>
+  <li>所有的文檔都放在 <code>docs</code> 中，請根據內容找到相應的文件並添加</li>
+  <li>如果是 Mac 或者 Linux 用户, 請在提交前運行 ./build.sh 來自動生成 <code>Readme.md</code> 文件</li>
+  <li>保存並提交</li>
+  <li>新建一個 Pull Request</li>
+</ul>
+
+<h2 id="mu-lu-">目錄</h2>
+
+<ul id="markdown-toc">
+  <li>
+<a href="#drupalzi-yuan-zong-jie--chi-xu-zheng-li-zhong-" id="markdown-toc-drupalzi-yuan-zong-jie--chi-xu-zheng-li-zhong-">Drupal資源總結 (持續整理中)</a>    <ul>
+      <li><a href="#gong-xian-fang-shi-" id="markdown-toc-gong-xian-fang-shi-">貢獻方式</a></li>
+      <li><a href="#mu-lu-" id="markdown-toc-mu-lu-">目錄</a></li>
+      <li>
+<a href="#drupal7-mo-zu-" id="markdown-toc-drupal7-mo-zu-">Drupal7 模組</a>        <ul>
+          <li><a href="#ban-mo-zu-" id="markdown-toc-ban-mo-zu-">一般模組</a></li>
+        </ul>
+      </li>
+      <li>
+<a href="#drupal7-wai-guan-" id="markdown-toc-drupal7-wai-guan-">Drupal7 外觀</a>        <ul>
+          <li><a href="#wai-guan-" id="markdown-toc-wai-guan-">外觀</a></li>
+        </ul>
+      </li>
+      <li><a href="#license" id="markdown-toc-license">License</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="drupal7-mo-zu-">Drupal7 模組</h2>
+
+<h3 id="ban-mo-zu-">一般模組</h3>
+<ul>
+  <li>Entity Label：<a href="https://www.drupal.org/project/auto_entitylabel">Automatic Entity Label</a>
+</li>
+  <li>Entityreference可以給預設值:<a href="https://www.drupal.org/project/entityreference_prepopulate">Entityreference prepopulate</a>
+</li>
+  <li>Views顯示更多效果:<a href="https://www.drupal.org/project/views_load_more">Views Load More</a>
+</li>
+</ul>
+
+<h2 id="drupal7-wai-guan-">Drupal7 外觀</h2>
+
+<h3 id="wai-guan-">外觀</h3>
+<ul>
+  <li>drupal7使用度最高的theme：<a href="https://www.drupal.org/project/zen">Zen</a>
+</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="http://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License"></a></p>
+
+<p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+
+    </article>
+  </body>
+  <script type="text/javascript">
+    var bodyEl = document.getElementsByTagName('body')[0];
+    var markdownToc = document.getElementById('markdown-toc');
+    bodyEl.appendChild(markdownToc);
+
+    var hash = location.hash.replace('#', '');
+
+    // Set init highlight anchor
+    if (hash) {
+      var activeAnchor = document.getElementById('markdown-toc-' + hash);
+      if (activeAnchor) {
+        activeAnchor.classList.add('active');
+      }
+    }
+
+    markdownToc.onclick = function(e) {
+      var activeAnchor = document.querySelector('a.active');
+      if (activeAnchor) {
+        activeAnchor.classList.remove('active');
+      }
+      e.target.classList.add('active')
+    }
+  </script>
+</html>
